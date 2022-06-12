@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:text="0" />
+
+    <EditText
+        android:id="@+id/first_num_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="num1"
+        android:inputType="phone"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/second_num_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="num2"
+        android:inputType="phone"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="result" />
+
+
+    <TextView
+        android:id="@+id/resultDivision"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:text="0" />
+
+    <EditText
+        android:id="@+id/first_num_et_div"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="num3"
+        android:inputType="phone"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/second_num_et_div"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="num4"
+        android:inputType="phone"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/btnDiv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="result" />
+
+</LinearLayout>
